@@ -1,0 +1,33 @@
+﻿Chris Palomares
+30 October, 2026
+Github Link - https://github.com/Cpalomares24/Roshambo.git 
+Roshambo
+My finished game follows the main idea from my original design document: a turn-based, rock-paper-scissors roguelike where the player fights three enemies and a final boss. The coin flip, attack and defense choices, shield and bleed mechanics, limited cards, upgrades, and pre-boss recovery choice are still central to the game.
+
+
+The biggest changes and additions were:
+1. Named enemies and a final boss
+   I developed four distinct encounters: Sporeling, Duskwing, Frostbound Golem, and Malachar the Necromancer. The original document called for three enemies and a boss but did not specify their designs or names.
+
+
+2. Character animations and visual feedback
+   I added idle, hurt, and death animations for the enemies, along with visual feedback during combat. I also adjusted enemy sprite sizes and positions so they display properly in the battle scene.
+
+
+3. More sound effects instead of relying on background music
+   The design document originally listed battle background music. In the finished game, I focused on sound effects tied to player actions and events instead. These include attack and defense sounds, coin flip sounds, character damage and enemy death sounds, menu hover sounds, and different victory and game-over sounds.
+
+
+4. Expanded menus and interface details
+   I built a main menu with Start, How to Play, and Quit options. I also added combat messages, card and status displays, and screens for upgrades, the pre-boss choice, victory, and defeat.
+
+
+5. Combat and balance adjustments during testing
+   I refined the timing of attacks, defenses, shields, and bleed so turns resolve in the intended order. I also tested the encounters and adjusted the game as needed to make the battles playable and consistent.
+
+
+6. Code organization and documentation
+   After finishing the game, I reorganized the large CombatManager script into smaller source files and added comments explaining the code. This was done to improve readability without changing the intended gameplay.
+
+
+Overall, the final version stays close to my original design. Most changes were additions to presentation, feedback, and code organization rather than major changes to the core mechanics.
